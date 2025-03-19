@@ -38,8 +38,7 @@ public class Test1 {
 			char ch = s.charAt(i);
 		
 		if(Character.isLetterOrDigit(ch)) {
-			onlyString+=ch;
-			
+			onlyString+=ch;			
 		}
 		}
 		System.out.println(onlyString);
@@ -87,7 +86,6 @@ public class Test1 {
 				 if (ch[i] == ' ') {
 					 i+=2;
 				}
-
 				if (Character.isLetter(ch[i])) {
 					ch[i] = Character.toLowerCase(ch[i]);
 					//second = false;
@@ -100,6 +98,7 @@ public class Test1 {
 
 		}
 		s = String.valueOf(ch);
+		String s1 = String.valueOf(ch);
 		System.out.println(s);
 
 	}
